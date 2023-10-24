@@ -31,6 +31,10 @@ Children:
     Type: PieChartStyle
   - Name: HistogramChartStyle
     Type: HistogramChartStyle
+  - Name: WindowColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#524d4d"
 - Name: NativePresentationEngine
   Type: NativePresentationEngine
   ReferenceType: HasOrderedComponent

@@ -654,6 +654,11 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 87.0
+    - Name: TextColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#ffffff"
   - Name: SpinBox2
     Type: SpinBox
     Children:
