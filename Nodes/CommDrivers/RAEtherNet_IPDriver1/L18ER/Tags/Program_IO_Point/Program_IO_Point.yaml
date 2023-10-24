@@ -1,0 +1,708 @@
+Name: 'Program:IO_Point'
+Type: FolderType
+Children:
+- Name: FL25_FlowMonitor
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:IO_Point.FL25_FlowMonitor"
+- Name: FL_25_Noise
+  Type: U_Noise
+  DataType: U_Noise
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "41e56ade89eba45bdf85adfbef4b9eb7",
+     "Namespace": 18
+    },
+    "Body": {
+     "Cfg_Amplitude": 0.0,
+     "Cfg_FiltTC": 0.0,
+     "EnableIn": false,
+     "EnableOut": false,
+     "Inp": 0.0,
+     "Out": 0.0,
+     "Out_Noise": 0.0,
+     "Out_Unfiltered": 0.0
+    }
+   }
+  Children:
+  - Name: Cfg_Amplitude
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL_25_Noise.Cfg_Amplitude"
+  - Name: Cfg_FiltTC
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL_25_Noise.Cfg_FiltTC"
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL_25_Noise.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL_25_Noise.EnableOut"
+  - Name: Inp
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL_25_Noise.Inp"
+  - Name: Out
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL_25_Noise.Out"
+  - Name: Out_Noise
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL_25_Noise.Out_Noise"
+  - Name: Out_Unfiltered
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL_25_Noise.Out_Unfiltered"
+- Name: FL25_FlowMonitor_OverRange
+  Type: ALARM_DIGITAL
+  DataType: ALARM_DIGITAL
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "958eb8105772988a5a4a97ea20216b71",
+     "Namespace": 18
+    },
+    "Body": {
+     "Acked": false,
+     "AckRequired": false,
+     "AckTime": 0,
+     "AlarmCount": 0,
+     "AlarmCountReset": false,
+     "AlarmCountResetTime": 0,
+     "Commissioned": false,
+     "Condition": false,
+     "Disabled": false,
+     "EnableIn": false,
+     "EnableOut": false,
+     "In": false,
+     "InAlarm": false,
+     "InAlarmTime": 0,
+     "InAlarmUnack": false,
+     "InFault": false,
+     "InFaulted": false,
+     "InstructFault": false,
+     "Latched": false,
+     "MaxShelveDuration": 0,
+     "MinDurationACC": 0,
+     "MinDurationPRE": 0,
+     "OperAck": false,
+     "OperDisable": false,
+     "OperEnable": false,
+     "OperReset": false,
+     "OperShelve": false,
+     "OperSuppress": false,
+     "OperUnshelve": false,
+     "OperUnsuppress": false,
+     "ProgAck": false,
+     "ProgDisable": false,
+     "ProgEnable": false,
+     "ProgReset": false,
+     "ProgSuppress": false,
+     "ProgTime": 0,
+     "ProgUnshelve": false,
+     "ProgUnsuppress": false,
+     "RetToNormalTime": 0,
+     "Severity": 0,
+     "SeverityInv": false,
+     "Shelved": false,
+     "ShelveDuration": 0,
+     "ShelveTime": 0,
+     "Status": 0,
+     "Suppressed": false,
+     "UnshelveTime": 0,
+     "UseProgTime": false
+    }
+   }
+  Children:
+  - Name: Acked
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.Acked"
+  - Name: AckRequired
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.AckRequired"
+  - Name: AckTime
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.AckTime"
+  - Name: AlarmCount
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.AlarmCount"
+  - Name: AlarmCountReset
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.AlarmCountReset"
+  - Name: AlarmCountResetTime
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.AlarmCountResetTime"
+  - Name: Commissioned
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.Commissioned"
+  - Name: Condition
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.Condition"
+  - Name: Disabled
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.Disabled"
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.EnableOut"
+  - Name: In
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.In"
+  - Name: InAlarm
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.InAlarm"
+  - Name: InAlarmTime
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.InAlarmTime"
+  - Name: InAlarmUnack
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.InAlarmUnack"
+  - Name: InFault
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.InFault"
+  - Name: InFaulted
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.InFaulted"
+  - Name: InstructFault
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.InstructFault"
+  - Name: Latched
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.Latched"
+  - Name: MaxShelveDuration
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.MaxShelveDuration"
+  - Name: MinDurationACC
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.MinDurationACC"
+  - Name: MinDurationPRE
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.MinDurationPRE"
+  - Name: OperAck
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.OperAck"
+  - Name: OperDisable
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.OperDisable"
+  - Name: OperEnable
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.OperEnable"
+  - Name: OperReset
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.OperReset"
+  - Name: OperShelve
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.OperShelve"
+  - Name: OperSuppress
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.OperSuppress"
+  - Name: OperUnshelve
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.OperUnshelve"
+  - Name: OperUnsuppress
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.OperUnsuppress"
+  - Name: ProgAck
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.ProgAck"
+  - Name: ProgDisable
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.ProgDisable"
+  - Name: ProgEnable
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.ProgEnable"
+  - Name: ProgReset
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.ProgReset"
+  - Name: ProgSuppress
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.ProgSuppress"
+  - Name: ProgTime
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.ProgTime"
+  - Name: ProgUnshelve
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.ProgUnshelve"
+  - Name: ProgUnsuppress
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.ProgUnsuppress"
+  - Name: RetToNormalTime
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.RetToNormalTime"
+  - Name: Severity
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.Severity"
+  - Name: SeverityInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.SeverityInv"
+  - Name: Shelved
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.Shelved"
+  - Name: ShelveDuration
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.ShelveDuration"
+  - Name: ShelveTime
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.ShelveTime"
+  - Name: Status
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.Status"
+  - Name: Suppressed
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.Suppressed"
+  - Name: UnshelveTime
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.UnshelveTime"
+  - Name: UseProgTime
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:IO_Point.FL25_FlowMonitor_OverRange.UseProgTime"
+- Name: Optix_Point_Start
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:IO_Point.Optix_Point_Start"
+- Name: Optix_Point_Started
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:IO_Point.Optix_Point_Started"
+- Name: Optix_Point_Stop
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:IO_Point.Optix_Point_Stop"
+- Name: Optix_Point_Stopped
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:IO_Point.Optix_Point_Stopped"
+- Name: Optix_Point_Enabled
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:IO_Point.Optix_Point_Enabled"
+- Name: Optix_Point_Enable
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:IO_Point.Optix_Point_Enable"
+- Name: Optix_Point_Dis
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:IO_Point.Optix_Point_Dis"
+- Name: Optix_Point_DisEnable
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:IO_Point.Optix_Point_DisEnable"
+- Name: Optix_Point_DisEnabled
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:IO_Point.Optix_Point_DisEnabled"
+- Name: Optix_FL25_Divider
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:IO_Point.Optix_FL25_Divider"
+- Name: Optix_Point_GO
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:IO_Point.Optix_Point_GO"
+- Name: Drive_525_Box_Frequency_STS_hold
+  Type: RAEtherNetIPTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:IO_Point.Drive_525_Box_Frequency_STS_hold"
